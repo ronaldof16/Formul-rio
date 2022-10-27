@@ -1,3 +1,67 @@
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+}
+
+.texto {
+    color: white;
+    margin-right: 10%;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: hsl(248, 32%, 49%);
+    border-radius: 5px;
+    border: none; 
+    color: white;
+    box-shadow: 0 5px hsl(246, 25%, 77%);
+    width: 100%; 
+}
+
+form {
+    background: white;
+    padding: 30px;
+}
+
 .dados {
     display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid hsl(246, 25%, 77%);
+    width: 95%;
+}
+
+.enviar {
+    padding: 10px;
+    margin-bottom: 10px;
+    background: hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 95%;
+}
+
+.legendInicial {
+    color: hsl(246, 25%, 77%);
+}
+
+.legendFinal {
+    color: hsl(0, 100%, 74%);
+}
+
+footer {
+    text-align: center;
 }
