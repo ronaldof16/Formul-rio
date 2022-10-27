@@ -24,13 +24,15 @@ button {
     border-radius: 5px;
     border: none; 
     color: white;
-    box-shadow: 0 5px hsl(246, 25%, 77%);
+    box-shadow: 0 6px hsla(249, 10%, 26%, 0.226);
     width: 100%; 
 }
 
 form {
     background: white;
     padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 6px hsla(249, 10%, 26%, 0.226);
 }
 
 .dados {
