@@ -1,12 +1,19 @@
+* {
+    font-family: 'Poppins', sans-serif; 
+}
 
+html { 
+    background-color: rgb(220, 245, 245);
+}
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 85vh;
     background: url('images/bg-intro-desktop.png');
     background-color: hsl(0, 100%, 74%);
+    margin: 50px 100px 10px 100px;
 }
 
 .texto {
@@ -15,7 +22,7 @@ main {
 }
 
 h1 {
-    text-transform: uppercase;
+    font-size: 2.5em;
 }
 
 button {
@@ -60,14 +67,19 @@ form {
 
 .legendInicial {
     color: hsl(246, 25%, 77%);
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .legendFinal {
     color: hsl(0, 100%, 74%);
-    font-size: 13px;
+    font-size: 11px;
 }
 
 footer {
     text-align: center;
+    font-size: 13px;
 }
+
+    footer a {
+        text-decoration: none;
+    }
