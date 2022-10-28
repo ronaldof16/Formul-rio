@@ -1,4 +1,5 @@
 
+
 main {
     display: flex;
     justify-content: center;
@@ -6,7 +7,6 @@ main {
     height: 90vh;
     background: url('images/bg-intro-desktop.png');
     background-color: hsl(0, 100%, 74%);
-    margin: 30px 60px;
 }
 
 .texto {
@@ -25,7 +25,8 @@ button {
     border-radius: 5px;
     border: none; 
     color: white;
-    box-shadow: 0 6px hsla(249, 10%, 26%, 0.226); 
+    box-shadow: 0 6px hsla(249, 10%, 26%, 0.226);
+    width: 100%; 
 }
 
 form {
@@ -41,7 +42,7 @@ form {
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid hsl(246, 25%, 77%);
-    width: 95%;
+    width: 94%;
 }
 
 .enviar {
@@ -53,7 +54,8 @@ form {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
-    width: 95%;
+    width: 100%;
+    box-shadow: 0 6px hsla(249, 10%, 26%, 0.226);
 }
 
 .legendInicial {
