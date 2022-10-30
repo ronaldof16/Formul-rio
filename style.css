@@ -38,13 +38,25 @@ form {
     box-shadow: 0 6px hsla(249, 10%, 26%, 0.226);
 }
 
-.dados {
-    display: block;
-    padding: 10px;
+#formulario {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 10px;
+    row-gap: 10px;
+}
+
+.dados {
+    padding: 10px;
     border-radius: 5px;
     border: 1px solid hsl(246, 25%, 77%);
     width: 94%;
+}
+
+.alerta {
+    margin-bottom: 10px;
+    font-size: 11px;
+    color: red;
+    display: none;
 }
 
 .enviar {

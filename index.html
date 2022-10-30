@@ -23,10 +23,16 @@
     <section>
       <button><strong>Try it free 7 days</strong> then $20/mo. thereafter</button>
       <form>
-        <input type="text" class="dados" placeholder="First Name">
-        <input type="text" class="dados" placeholder="Last Name">
-        <input type="email" class="dados" placeholder="Email Adress">
-        <input type="password" class="dados" placeholder="Password">
+        <div id="formulario">
+          <input type="text" class="dados" placeholder="First Name" oninput="validarNome()">
+          <span class="alerta">Digite um nome</span>
+          <input type="text" class="dados" placeholder="Last Name" oninput="validarNome()">
+          <span class="alerta">Digite um nome</span>
+          <input type="email" class="dados" placeholder="Email Adress">
+          <span class="alerta">Digite um email válido</span>
+          <input type="password" class="dados" placeholder="Password">
+          <span class="alerta">Digite uma senha válida</span>
+        </div>
         <input type="submit" class="enviar" value="Claim your free trial">
         <legend>
           <span class="legendInicial">By clicking the button, you are agreeing to  our</span>
