@@ -94,6 +94,16 @@ footer {
     font-size: 13px;
 }
 
-    footer a {
-        text-decoration: none;
+footer a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 670px) {
+    main {
+        display: block;
     }
+
+    h1, .texto {
+        text-align: center;
+    }
+}
