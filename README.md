@@ -1,5 +1,5 @@
 # Formulario
-Formulário de inscrição com validação em javascript
+Formulário de inscrição com validação em javascript.
 
 Link da página: <https://ronaldof16.github.io/Formulario/>
 
