@@ -98,7 +98,7 @@ footer a {
     text-decoration: none;
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 670px) {    
     main {
         display: block;
     }
@@ -107,3 +107,4 @@ footer a {
         text-align: center;
     }
 }
+
