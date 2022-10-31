@@ -50,6 +50,7 @@ form {
     border-radius: 5px;
     border: 1px solid hsl(246, 25%, 77%);
     width: 94%;
+    outline: none;
 }
 
 .alerta {

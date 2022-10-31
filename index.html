@@ -25,13 +25,13 @@
       <form>
         <div id="formulario">
           <input type="text" class="dados" placeholder="First Name" oninput="validarNome()">
-          <span class="alerta">Digite um nome</span>
-          <input type="text" class="dados" placeholder="Last Name" oninput="validarNome()">
-          <span class="alerta">Digite um nome</span>
-          <input type="email" class="dados" placeholder="Email Adress">
+          <span class="alerta">O nome tem que ter no mínimo 2 letras</span>
+          <input type="text" class="dados" placeholder="Last Name" oninput="validarSobreNome()">
+          <span class="alerta">O nome tem que ter no mínimo 2 letras</span>
+          <input type="email" class="dados" placeholder="Email Adress" oninput="validarEmail()">
           <span class="alerta">Digite um email válido</span>
-          <input type="password" class="dados" placeholder="Password">
-          <span class="alerta">Digite uma senha válida</span>
+          <input type="password" class="dados" placeholder="Password" oninput="validarSenha()">
+          <span class="alerta">A senha tem que ter entre 4 e 8 caracteres</span>
         </div>
         <input type="submit" class="enviar" value="Claim your free trial">
         <legend>
