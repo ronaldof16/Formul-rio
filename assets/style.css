@@ -48,7 +48,7 @@ form {
 .dados {
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid hsl(246, 25%, 77%);
+    border: 2px solid hsl(246, 25%, 77%);
     width: 94%;
     outline: none;
 }
