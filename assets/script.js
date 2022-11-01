@@ -45,12 +45,20 @@ function validarSenha() {
     }
 }
 
+function limparCampos() {
+    campos[0].value = '';
+    campos[1].value = '';
+    campos[2].value = '';
+    campos[3].value = '';
+}
+
 form.addEventListener('submit', (event) => {
     event.preventDefault();
     validarNome();
     validarSobreNome();
     validarEmail();
     validarSenha();
-})
+    limparCampos();
+});
 
 
