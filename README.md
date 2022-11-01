@@ -7,7 +7,7 @@ Link da página: <https://ronaldof16.github.io/Formulario/>
 
 ## Sobre
 
-Esse projeto é um desafio do [frontend mentor](). O objetivo deste formulário é deixá-lo interativo através do javascript, quando o usuário
+Esse projeto é um desafio do [frontend mentor](https://www.frontendmentor.io?ref=challenge). O objetivo deste formulário é deixá-lo interativo através do javascript, quando o usuário
 for preencher os campos vai ser necessário obedecer algumas regras, caso contrário vai aprecer algumas mensagens de erro e ele não vai conseguir
 fazer o envio dos dados. É necessário que os campos pra digitar o nome e sobrenome tenha no mínimo 2 caracteres, que o campo do email obedeça uma 
 estrutura padrão e tenha um email válido, a senha tem que ter entre 4 e 8 caracteres. Ao tentar fazer o envio com todos os campos em branco 
